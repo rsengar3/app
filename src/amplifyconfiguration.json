@@ -1,0 +1,31 @@
+{
+  "aws_project_region": "ap-south-1",
+  "aws_cognito_identity_pool_id": "ap-south-1:9c7d7855-9599-4795-b59d-6b6697fb1d6b",
+  "aws_cognito_region": "ap-south-1",
+  "aws_user_pools_id": "ap-south-1_4ZqHsRwqZ",
+  "aws_user_pools_web_client_id": "m8o210os3aabsrvkoprim7v92",
+  "oauth": {},
+  "aws_cognito_username_attributes": [],
+  "aws_cognito_social_providers": [],
+  "aws_cognito_signup_attributes": [
+    "EMAIL"
+  ],
+  "aws_cognito_mfa_configuration": "OPTIONAL",
+  "aws_cognito_mfa_types": [
+    "SMS"
+  ],
+  "aws_cognito_password_protection_settings": {
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": []
+  },
+  "aws_cognito_verification_mechanisms": [
+    "PHONE_NUMBER"
+  ],
+  "aws_cloud_logic_custom": [
+    {
+      "name": "AdminQueries",
+      "endpoint": "https://yr23u56skc.execute-api.ap-south-1.amazonaws.com/dev",
+      "region": "ap-south-1"
+    }
+  ]
+}
