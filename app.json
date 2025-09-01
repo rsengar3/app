@@ -2,6 +2,14 @@
   "expo": {
     "name": "my-app",
     "slug": "my-app",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "android": {
+      "package": "com.rsengar3.myapp"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2d7197d2-d096-4cc2-8daf-1d1f1627c7a0"
+      }
+    }
   }
 }

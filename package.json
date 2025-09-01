@@ -9,13 +9,27 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@aws-amplify/pubsub": "^6.1.61",
+    "@aws-amplify/react-native": "^1.1.10",
+    "@react-native-async-storage/async-storage": "2.1.2",
+    "@react-native-community/netinfo": "11.4.1",
+    "aws-amplify": "^6.15.5",
     "expo": "~53.0.22",
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",
-    "react-native": "0.79.6"
+    "react-native": "0.79.6",
+    "react-native-get-random-values": "~1.11.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@aws-amplify/backend": "^1.16.1",
+    "@aws-amplify/backend-cli": "^1.5.0",
+    "@babel/core": "^7.20.0",
+    "@types/react": "~19.0.10",
+    "aws-cdk-lib": "^2.204.0",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.25.9",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
   },
   "private": true
 }

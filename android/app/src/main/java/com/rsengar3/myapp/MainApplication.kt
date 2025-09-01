@@ -1,4 +1,4 @@
-package com.myapp
+package com.rsengar3.myapp
 
 import android.app.Application
 import android.content.res.Configuration
